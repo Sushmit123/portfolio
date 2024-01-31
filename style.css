@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+html {
+  scroll-behavior: smooth;
+  font-family: "Source Sans Pro", sans-serif;
+}
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+h3 {
+  padding-left: 1%;
+  font-size: 20px;
+  padding-top: 20px;
+}
+img {
+  height: 50px;
+  margin: 0 15px;
+}
+ul {
+  list-style-type: none;
+  margin-left: auto;
+  padding-top: 25px;
+}
+li {
+  display: inline-block;
+  margin-right: 15px;
+}
+li a {
+  padding: 8px;
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #f9a715;
+}
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* header finish */
+
+/* body section */
+.texture {
+  height: 865px;
+  background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  background-attachment: fixed;
+}
+
+.texture {
+  text-align: center;
+}
+
+.socialmedia {
+  position: relative;
+  top: 250px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  height: 200px;
+  width: 60px;
+  padding-top: 15px;
+}
+
+.socialmedia i {
+  font-size: 35px;
+  margin-bottom: 15px;
+  display: block;
+  color: black;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-top: 55px;
+}
+
+.sentence {
+  width: 45%;
+  margin-top: 25px;
+  margin-left: 27%;
+  text-align: center;
+  justify-content: center;
+}
+p {
+  font-size: 22px;
+}
+
+button {
+  width: 244px;
+  height: 56px;
+  font-size: 25px;
+
+  color: white;
+  background-color: #f9a715;
+  border: none;
+  border-radius: 10px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+button a:hover {
+  color: black;
+}
+
+/* body finish */
+
+/* Education and course  */
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+.columns {
+  float: left;
+  width: 50%;
+  padding: 12px;
+  min-height: 300px;
+  margin-top: 50px;
+}
+
+.rows::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.table {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+td {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+.table tbody tr td{
+  padding-top: 30px;
+}
+
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+  background-color: orange;
+}
+/* Education and course */
+
+/* skills */
+.skills {
+  max-width: 750px;
+  margin: 5px auto auto ;
+  padding: 0 10px;
+  text-align: center;
+  margin-top: 3%;
+  width: 100%;
+  
+}
+.skills h2{
+  text-transform: uppercase;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  );
+  gap: 30px;  
+  margin-top: 20px;
+}
+
+.skills-list .col {
+ background-color: whitesmoke;
+  height: 45px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.col:hover {
+  background-color: #f9a715;
+}
+
+/* skills */
+/* Project */
+
+#projects {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4%;
+}
+#pcolumns {
+  float: left;
+  width: 50%;
+  padding: 12px;
+  min-height: 300px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+#prows::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#pcolumns:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+#pcolumns h2 {
+  margin-bottom: 10px;
+}
+#ptech, #pdescription {
+  margin-bottom: 10px;
+} 
+ #pgithub a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background-color:#f9a715;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#pgithubee a {
+  display: block;
+  padding: 10px;
+  margin-top: 43px;
+  text-align: center;
+  background-color:#f9a715;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+/* project finish */
+
+/* Contact */
+.texture2{
+  height: 1205px;
+  background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+
+.contact{
+  padding-top:45px ;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tocontact{
+width: 40%;
+text-align: center;
+justify-content: center;
+display:inline;
+font-size: 15px;
+}
+
+#formm {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  position: relative;
+  left: 25%;
+  margin-top: 70px;
+  padding: 80px; 
+}
+
+.Fname {
+  
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bold;
+ 
+}
+
+.inputField {
+  width: 100%; 
+  height: 80px; 
+  background-color: whitesmoke; 
+  margin-bottom: 10px; 
+  border: none;
+  border-radius: 5px;
+  outline: none;
+ margin-top: 15px;
+ padding-left: 25px;
+ font-size: 14px;
+ color: gray;
+ font-weight: bold;
+ margin-bottom: 50px;
+}
+
+.inputField2{
+  width: 100%; 
+  height: 250px; 
+  background-color: whitesmoke; 
+  margin-bottom: 10px; 
+  border: none;
+  border-radius: 5px;
+  outline: none;
+ margin-top: 15px;
+ padding-left: 25px;
+ padding-top: 35px;
+ font-size: 15px;
+ color: gray;
+ font-weight: bolder;
+ margin-bottom: 50px;
+ resize: none;
+}
+
+.submit{
+  width: 150px;
+  height: 56px;
+  font-size: 25px;
+  background-color: #f9a715;
+  border: none;
+  border-radius: 10px;
+  margin-top: -35px;
+  float: right;
+}
+
+/* contact finish */
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke; 
+  height: 250px;
+  color: black;
+
+}
+
+.left-content {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  
+  
+ 
+  
+}
+.nameee {
+  font-size: 35px;
+ 
+  
+}
+.designation p{
+  font-size: 20px;
+  
+}
+
+.right-content {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.left-content, .right-content {
+  flex: 1;
+}
+.socialm {
+  margin-top: 10px;
+}
+
+.socialm a {
+  margin: 0 10px;
+}
+
+.socialm a {
+  margin-right: 15px; 
+  color: black;
+  font-size: 25px;
+}
+
+
+h5 {
+  margin-top: auto;
+  font-size: 16px;
+  
+}
+/* footer finish */
+
+/* @media (max-width: 952) {
+  h3 {
+    font-size: 15px;
+  }
+  nav ul li a {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 80px;
+  }
+} */
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    overflow: hidden;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+   
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover {
+    background: #f9a715;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .name {
+    font-size: 30px;
+    margin-top: -100px;
+  }
+  button {
+    margin-left: -45px;
+  }
+  .columns {
+    width: 100%;
+  }
+  #pcolumns{
+    width: 100%;
+   
+  }
+
+  /* contact */
+  #formm {
+    width: 90%;
+    height: 70%;
+    position: relative;
+    left: 5%;
+   
+  }
+  
+/* footer */
+.footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.left-content, .right-content {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+}
